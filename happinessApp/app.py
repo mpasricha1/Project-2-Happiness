@@ -198,6 +198,7 @@ def calculatescore():
 	count = 1
 	for row in topFive: 
 		country = row[0]
+		points = row[1]
 		sel = [CountryReference.countryname,Coordinates.latitude, Coordinates.longitude, Happiness.gdppercapita, Happiness.socialsupport,
 				Happiness.healthylifeexpectancy, Happiness.freedomlifechoice, Happiness.generosity, Happiness.perceptionofcorruption,
 				 Alcohol.beer, Alcohol.wine, Alcohol.spirits, Fitness.healthgrade, Marijuana.recreational, Marijuana.medical,
@@ -230,7 +231,8 @@ def calculatescore():
 					  "marymed": data[13], 
 					  "maryrec": data[14], 
 					  "sports": data[15], 
-					  "work": data[16]
+					  "work": data[16], 
+					  "points": points
 		}
 		count+=1
 		returnList.append(countryData)
@@ -472,7 +474,7 @@ def calculateSocialScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(and_(Happiness.socialsupport > 0.50, Happiness.socialsupport < 1.0)).all()
+						   filter(and_(Happiness.socialsupport > 0.5)).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 5
@@ -502,7 +504,7 @@ def calculateLifeChoiceScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(and_(Happiness.freedomlifechoice > 0.20, Happiness.freedomlifechoice < 0.4)).all()
+						   filter(and_(Happiness.freedomlifechoice > 0.20)).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 5
@@ -523,7 +525,7 @@ def calculateGenerosityScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(Happiness.generosity > 0.5).all()
+						   filter(Happiness.generosity > 0.3).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 10 
@@ -532,7 +534,7 @@ def calculateGenerosityScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(and_(Happiness.generosity > 0.20, Happiness.generosity < 0.5)).all()
+						   filter(and_(Happiness.generosity > 0.2)).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 5
@@ -553,7 +555,7 @@ def calculateCorruptionScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(Happiness.perceptionofcorruption > 0.5).all()
+						   filter(Happiness.perceptionofcorruption > 0.1).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 10 
@@ -562,7 +564,7 @@ def calculateCorruptionScore(userData, countryDict):
 		countries = session.query(CountryReference.countryname).\
 						   filter(CountryReference.incountryid == Happiness.excountryid).\
 						   filter(Happiness.year == 2020).\
-						   filter(and_(Happiness.perceptionofcorruption > 0.10, Happiness.perceptionofcorruption < 0.5)).all()
+						   filter(and_(Happiness.perceptionofcorruption > 0.7)).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 5
