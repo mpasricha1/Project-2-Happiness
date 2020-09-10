@@ -74,7 +74,6 @@ function generateTable(data){
       Object.entries(results).forEach(function([key,value]){
         var cell = row.append("td"); 
         cell.text(value);
-        console.log(`key:${key}, value:${value}`)
       });
     });
 
