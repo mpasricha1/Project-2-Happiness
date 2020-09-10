@@ -1,0 +1,312 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+	<div class="row"> 
+		<div class=col-md-12>
+			<h1>Happiness Survey</h1>
+			<h3>The following survey will help us to determine which country you would be happiest living in.</h3>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-md-12">
+			<h5>Please provide your information below:</h5>
+		</div>
+	</div><hr>
+	<form id="surveydata" method="POST" action="{{ url_for('survey') }}">
+		<div class="form-row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="inputfirst">First Name</label>
+					<input type="text" class="form-control" id="inputfirst" name="firstname" placeholder="First Name">
+					<small>Optional</small>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="inputlast">Last Name</label>
+					<input type="text" class="form-control" id="inputlast" name="lastname" placeholder="Last Name">
+					<small>Optional</small>
+				</div>
+			</div>
+		</div>
+		<div class="form-row">
+		    <div class="form-group col-md-6">
+		     	<label for="inputZip">Zip Code</label>
+		      	<input type="text" class="form-control" id="inputZip" name="zipcode" placeholder="Zip Code">
+			</div>
+			<div class="form-group col-md-6">
+		    	<label for="inputEmail4">Email</label>
+		    	<input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+		    </div>	
+		</div>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+		    	<label for="genderinput">Gender:</label>
+		    	<select class="form-control" id="genderinput" name="gender">
+		      		<option>Female</option>
+		      		<option>Male</option>
+		      		<option>I prefer not to answer</option>
+		    	</select>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="inputage">Age</label>
+				<input type="text" class="form-control" id="inputage" name="age" placeholder="Age">
+			</div>
+			<div class="form-group col-md-6">
+		    	<label for="incomeinput">Annual Income Earned:</label>
+		    	<select class="form-control" id="incomeinput" name="income">
+		      		<option><$20,000 per year</option>
+		      		<option>$21,000-$50,000 per year</option>
+		      		<option>$51,000-$75,000 per year</option>
+		      		<option>$76,000-$150,000 per year</option>
+		      		<option>$151,000-$250,000 per year</option>
+		      		<option> >$251,000 per year</option>
+		    	</select>
+			</div>
+		</div><hr><br><br>
+		<div class="row">
+			<div class="col-md-12">
+				<h5>There are a number of factors that will be used to to determine the location that is best suited for you based on your selections below. Please answer the following questions to the best of your ability.</h5>
+			</div>
+		</div><br>
+
+		<div class="row">
+			<div class="col-md-6">
+			  	<div class="form-group">
+			    	<label for="regioninput">Select the region in the world where you would most like to live:</label>
+			    	<select class="form-control" id="regioninput" name="region">
+			      		<option>Australia and New Zealand</option>
+			      		<option>Central and Eastern Europe</option>
+			      		<option>Commonwealth of Independent States</option>
+			      		<option>East Asia</option>
+			      		<option>Latin America and Caribbean</option>
+			      		<option>Middle East and North Africa</option>
+			      		<option>North America</option>
+			      		<option>Oceania</option>
+			      		<option>South Asia</option>
+			      		<option>South Pacific</option>
+			      		<option>Southeast Asia</option>
+			      		<option>Sub-Saharan Africa</option>
+			      		<option>Western Europe</option>
+			    	</select>
+				</div>
+			</div>
+			<div class="col-md-6">
+			  	<div class="form-group">
+			    	<label for="sportinput">Choose your favorite sport from the list below:</label>
+			    	<select class="form-control" id="sportinput" name="sports">
+			      		<option>American Football</option>
+			      		<option>Australian Football</option>
+			      		<option>Baseball</option>
+			      		<option>Basketball</option>
+			      		<option>Boxing</option>
+			      		<option>Cricket</option>
+			      		<option>Cue Sports</option>
+			      		<option>Cycling</option>
+			      		<option>Football Soccer</option>
+			      		<option>Ice Hockey</option>
+			      		<option>Martial Arts</option>
+			      		<option>Motor Sports</option>
+			      		<option>Rugby</option>
+			      		<option>Skateboarding</option>
+			      		<option>Skating</option>
+			      		<option>Team Handball</option>
+			      		<option>Tennis</option>
+			      		<option>Water Sports</option>
+			      		<option>Wrestling</option>
+			    	</select>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+					<p>What is your favorite type of Alcohol to drink?</p>
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="beer">
+					 <label class="form-check-label" for="defaultCheck1">Beer</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="wine">
+					<label class="form-check-label" for="defaultCheck1">Wine</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="spirits">
+					<label class="form-check-label" for="defaultCheck1">Spirits</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="dontdrink">
+					<label class="form-check-label" for="defaultCheck1">I don't drink alcohol</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-check">
+					<p>How important is overall fitness to you?</p>
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="fitextreme">
+					<label class="form-check-label" for="defaultCheck1">Extremely Important</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="fitsomewhat">
+					<label class="form-check-label" for="defaultCheck1">Somewhat Important</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="fitnot">
+					<label class="form-check-label" for="defaultCheck1">Not Very Important</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Choose your stance on the legalizational of marijuana for MEDICINAL purposes:</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="medlegal">
+				  <label class="form-check-label" for="defaultCheck1">Legal</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="meddecrim">
+				  <label class="form-check-label" for="defaultCheck1">Decriminalize</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="medillegal">
+				  <label class="form-check-label" for="defaultCheck1">Illegal</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Choose your stance on the legalizational of marijuana for RECREATIONAL purposes:</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="reclegal">
+				  <label class="form-check-label" for="defaultCheck1">Legal</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="recdecrim">
+				  <label class="form-check-label" for="defaultCheck1">Decriminalize</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="recillegal">
+				  <label class="form-check-label" for="defaultCheck1">Illegal</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>I prefer to live in a country with Universal Healthcare:</p>
+				  <input class="form-check-input" type="checkbox" id="defaultCheck1" value="" name="htrue">
+				  <label class="form-check-label" for="defaultCheck1">True</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" id="defaultCheck1" value="" name="hfalse">
+				  <label class="form-check-label" for="defaultCheck1">False</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+			  	<div class="form-group">
+			    	<label for="workhoursinput">The number of hours I'm willing to work per week:</label>
+			    	<select class="form-control" id="workhoursinput" name="workhours">
+			      		<option>Less than 10 Hours per Week</option>
+			      		<option>11-20 Hours per Week</option>
+			      		<option>21-30 Hours per Week</option>
+			      		<option>31-40 Hours per Week</option>
+			      		<option>40+ Hours per Week</option>
+			    	</select>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+				<p>High GDP Per Capita:</p>
+				 	<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="gdpextreme">
+					<label class="form-check-label" for="defaultCheck1">Extremely Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="gdpsomewhat">
+				  <label class="form-check-label" for="defaultCheck1">Somewhat Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="gdpnot">
+				  <label class="form-check-label" for="defaultCheck1">Not Very Impactful</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Interactive and Supportive Social Environment:</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="socialextreme">
+				  <label class="form-check-label" for="defaultCheck1">Extremely Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="socialsomewhat">
+				  <label class="form-check-label" for="defaultCheck1">Somewhat Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="socialnot">
+				  <label class="form-check-label" for="defaultCheck1">Not Very Impactful</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Freedom to make life choices (ability to do as you choose with your life):</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="lifeextreme">
+				  <label class="form-check-label" for="defaultCheck1">Extremely Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="lifesomewhat">
+				  <label class="form-check-label" for="defaultCheck1">Somewhat Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="lifenot">
+				  <label class="form-check-label" for="defaultCheck1">Not Very Impactful</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Generosity (Donation/Charity work):</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="genextreme">
+				  <label class="form-check-label" for="defaultCheck1">Extremely Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="gensomewhat">
+				  <label class="form-check-label" for="defaultCheck1">Somewhat Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="gennot">
+				  <label class="form-check-label" for="defaultCheck1">Not Very Impactful</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-check">
+				  <p>Trust in Government (Perception of corruption in business and/or government):</p>
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="govextreme">
+				  <label class="form-check-label" for="defaultCheck1">Extremely Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="govsomewhat">
+				  <label class="form-check-label" for="defaultCheck1">Somewhat Impactful</label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="govnot">
+				  <label class="form-check-label" for="defaultCheck1">Not Very Impactful</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class= "col-md-2">
+				<button type="submit" class="btn btn-success btn-block submit" id="submit">Submit</button>
+			</div>
+		</div><br>
+		<!-- <script>$("#submit").click(function(){
+			$.ajax({
+				type: "GET", 
+				url: "/calculatescore",
+				success: function(){
+					return
+				}
+			});
+		});
+		</script> -->
+ 	</form>
+</div>
+{% endblock %}

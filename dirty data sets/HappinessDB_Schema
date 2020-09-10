@@ -1,0 +1,37 @@
+DROP TABLE IF EXISTS Alcohol;
+DROP TABLE IF EXISTS Marijuana;
+DROP TABLE IF EXISTS Countries;
+CREATE TABLE Countries (
+	countryName varchar,
+	region varchar,
+	happinessRating float,
+	gdpPerCapita float,
+	socialSupport float,
+	healthyLifeExpectancy float,
+	freedomLifeChoice float,
+	generosity float,
+	perceptionOfCorruption float,
+	dystopiaResidual float,
+	year int,
+	InCountryID SERIAL UNIQUE,
+	PRIMARY KEY (InCountryID)
+);
+CREATE TABLE Alcohol (
+	InAlcoholID int,
+	ExCountryID int,
+	alcoholPerYear float,
+	alcoholPerDay float,
+	beer float,
+	wine float,
+	spirits float,
+	PRIMARY KEY (InAlcoholID),
+	FOREIGN KEY (ExCountryID) REFERENCES Countries (InCountryID)
+);
+CREATE TABLE Marijuana (
+	InMarijuanaID int,
+	ExCountryID int,
+	recreational varchar,
+	medical varchar,
+	PRIMARY KEY (InMarijuanaID),
+	FOREIGN KEY (ExCountryID) REFERENCES Countries (InCountryID)
+);

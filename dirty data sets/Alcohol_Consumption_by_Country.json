@@ -1,0 +1,1514 @@
+[
+  {
+    "country": "Tunisia",
+    "alcoloholPerYear": "36.6000",
+    "alcoholPerDay": "79.1000",
+    "beer%": "72.2000",
+    "wine%": "23.9000",
+    "spirits%": "3.8000"
+  },
+  {
+    "country": "Swaziland",
+    "alcoloholPerYear": "34.4000",
+    "alcoholPerDay": "74.3000",
+    "beer%": "24.6000",
+    "wine%": "16.1000",
+    "spirits%": 0
+  },
+  {
+    "country": "Maldives",
+    "alcoloholPerYear": "33.7000",
+    "alcoholPerDay": "72.8000",
+    "beer%": "30.8000",
+    "wine%": "37.2000",
+    "spirits%": "31.9000"
+  },
+  {
+    "country": "Afghanistan",
+    "alcoloholPerYear": "33.5000",
+    "alcoholPerDay": "72.4000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Namibia",
+    "alcoloholPerYear": "32.4000",
+    "alcoholPerDay": "70.1000",
+    "beer%": "60.2000",
+    "wine%": "10.4000",
+    "spirits%": "13.9000"
+  },
+  {
+    "country": "South Africa",
+    "alcoloholPerYear": "29.9000",
+    "alcoholPerDay": "64.6000",
+    "beer%": 56,
+    "wine%": "18.5000",
+    "spirits%": "17.8000"
+  },
+  {
+    "country": "Algeria",
+    "alcoloholPerYear": "29.1000",
+    "alcoholPerDay": 63,
+    "beer%": "57.3000",
+    "wine%": "24.4000",
+    "spirits%": "18.3000"
+  },
+  {
+    "country": "Turkey",
+    "alcoloholPerYear": "28.5000",
+    "alcoholPerDay": "61.7000",
+    "beer%": "57.6000",
+    "wine%": "8.6000",
+    "spirits%": "33.8000"
+  },
+  {
+    "country": "Iran",
+    "alcoloholPerYear": "28.4000",
+    "alcoholPerDay": "61.4000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Lesotho",
+    "alcoloholPerYear": "28.2000",
+    "alcoholPerDay": 61,
+    "beer%": "57.4000",
+    "wine%": "3.2000",
+    "spirits%": "10.5000"
+  },
+  {
+    "country": "Georgia",
+    "alcoloholPerYear": "27.9000",
+    "alcoholPerDay": "60.4000",
+    "beer%": "18.4000",
+    "wine%": 43,
+    "spirits%": "38.5000"
+  },
+  {
+    "country": "Nauru",
+    "alcoloholPerYear": "27.3000",
+    "alcoholPerDay": 59,
+    "beer%": 22,
+    "wine%": "3.7000",
+    "spirits%": "74.3000"
+  },
+  {
+    "country": "Zimbabwe",
+    "alcoloholPerYear": "27.2000",
+    "alcoholPerDay": "58.8000",
+    "beer%": "62.8000",
+    "wine%": "1.3000",
+    "spirits%": 12
+  },
+  {
+    "country": "Libya",
+    "alcoloholPerYear": "26.4000",
+    "alcoholPerDay": 57,
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Botswana",
+    "alcoloholPerYear": "26.2000",
+    "alcoholPerDay": "56.6000",
+    "beer%": "48.1000",
+    "wine%": "23.5000",
+    "spirits%": "4.4000"
+  },
+  {
+    "country": "Uganda",
+    "alcoloholPerYear": 26,
+    "alcoholPerDay": "56.3000",
+    "beer%": 11,
+    "wine%": "0.1000",
+    "spirits%": "3.1000"
+  },
+  {
+    "country": "Pakistan",
+    "alcoloholPerYear": 26,
+    "alcoholPerDay": "56.2000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Laos",
+    "alcoloholPerYear": "25.9000",
+    "alcoholPerDay": 56,
+    "beer%": "50.1000",
+    "wine%": 0,
+    "spirits%": "49.8000"
+  },
+  {
+    "country": "Tanzania",
+    "alcoloholPerYear": "25.8000",
+    "alcoholPerDay": "55.7000",
+    "beer%": "12.2000",
+    "wine%": "0.4000",
+    "spirits%": "1.6000"
+  },
+  {
+    "country": "Rwanda",
+    "alcoloholPerYear": "25.6000",
+    "alcoholPerDay": "55.4000",
+    "beer%": "14.8000",
+    "wine%": "0.2000",
+    "spirits%": "2.7000"
+  },
+  {
+    "country": "Nigeria",
+    "alcoloholPerYear": "25.5000",
+    "alcoholPerDay": 55,
+    "beer%": "7.9000",
+    "wine%": "0.4000",
+    "spirits%": "0.6000"
+  },
+  {
+    "country": "Lebanon",
+    "alcoloholPerYear": 25,
+    "alcoholPerDay": "54.1000",
+    "beer%": "33.9000",
+    "wine%": "15.4000",
+    "spirits%": "49.2000"
+  },
+  {
+    "country": "Jordan",
+    "alcoloholPerYear": "24.6000",
+    "alcoholPerDay": "53.2000",
+    "beer%": "19.9000",
+    "wine%": "2.6000",
+    "spirits%": "75.9000"
+  },
+  {
+    "country": "Morocco",
+    "alcoloholPerYear": "24.5000",
+    "alcoholPerDay": "52.9000",
+    "beer%": "42.9000",
+    "wine%": "39.8000",
+    "spirits%": 17
+  },
+  {
+    "country": "Kyrgyzstan",
+    "alcoloholPerYear": 24,
+    "alcoholPerDay": "51.9000",
+    "beer%": "11.6000",
+    "wine%": "2.2000",
+    "spirits%": "86.2000"
+  },
+  {
+    "country": "Burundi",
+    "alcoloholPerYear": "23.7000",
+    "alcoholPerDay": "51.2000",
+    "beer%": "39.3000",
+    "wine%": "0.1000",
+    "spirits%": "0.1000"
+  },
+  {
+    "country": "Moldova",
+    "alcoloholPerYear": "22.8000",
+    "alcoholPerDay": "49.2000",
+    "beer%": "16.2000",
+    "wine%": "56.6000",
+    "spirits%": "25.2000"
+  },
+  {
+    "country": "Vietnam",
+    "alcoloholPerYear": "22.8000",
+    "alcoholPerDay": "49.3000",
+    "beer%": "91.5000",
+    "wine%": "0.8000",
+    "spirits%": "7.7000"
+  },
+  {
+    "country": "Cameroon",
+    "alcoloholPerYear": "22.6000",
+    "alcoholPerDay": "48.8000",
+    "beer%": "43.5000",
+    "wine%": "1.4000",
+    "spirits%": "0.1000"
+  },
+  {
+    "country": "Comoros",
+    "alcoloholPerYear": "22.3000",
+    "alcoholPerDay": "48.3000",
+    "beer%": "24.6000",
+    "wine%": "30.6000",
+    "spirits%": "44.8000"
+  },
+  {
+    "country": "Burkina Faso",
+    "alcoloholPerYear": "22.2000",
+    "alcoholPerDay": "47.9000",
+    "beer%": 18,
+    "wine%": "2.7000",
+    "spirits%": 5
+  },
+  {
+    "country": "Bahrain",
+    "alcoloholPerYear": "22.1000",
+    "alcoholPerDay": "47.9000",
+    "beer%": 19,
+    "wine%": "6.2000",
+    "spirits%": "45.2000"
+  },
+  {
+    "country": "Sudan",
+    "alcoloholPerYear": 22,
+    "alcoholPerDay": "47.5000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Mongolia",
+    "alcoloholPerYear": "21.9000",
+    "alcoholPerDay": "47.2000",
+    "beer%": "43.6000",
+    "wine%": "1.9000",
+    "spirits%": "54.5000"
+  },
+  {
+    "country": "Seychelles",
+    "alcoloholPerYear": "21.8000",
+    "alcoholPerDay": "47.2000",
+    "beer%": "68.9000",
+    "wine%": "22.4000",
+    "spirits%": "6.3000"
+  },
+  {
+    "country": "Cambodia",
+    "alcoloholPerYear": "21.7000",
+    "alcoholPerDay": 47,
+    "beer%": "88.1000",
+    "wine%": "0.6000",
+    "spirits%": "11.2000"
+  },
+  {
+    "country": "Ivory Coast",
+    "alcoloholPerYear": "21.7000",
+    "alcoholPerDay": "46.9000",
+    "beer%": "21.9000",
+    "wine%": 5,
+    "spirits%": "0.2000"
+  },
+  {
+    "country": "Armenia",
+    "alcoloholPerYear": "21.3000",
+    "alcoholPerDay": 46,
+    "beer%": "10.6000",
+    "wine%": 7,
+    "spirits%": "82.3000"
+  },
+  {
+    "country": "Niue",
+    "alcoloholPerYear": 21,
+    "alcoholPerDay": "45.5000",
+    "beer%": "56.3000",
+    "wine%": "13.1000",
+    "spirits%": "30.6000"
+  },
+  {
+    "country": "Cook Islands",
+    "alcoloholPerYear": "20.8000",
+    "alcoholPerDay": "45.1000",
+    "beer%": "31.7000",
+    "wine%": "16.1000",
+    "spirits%": "52.2000"
+  },
+  {
+    "country": "United Arab Emirates",
+    "alcoloholPerYear": "20.5000",
+    "alcoholPerDay": "44.2000",
+    "beer%": "10.1000",
+    "wine%": "7.7000",
+    "spirits%": "81.9000"
+  },
+  {
+    "country": "Thailand",
+    "alcoloholPerYear": "20.3000",
+    "alcoholPerDay": "43.9000",
+    "beer%": "28.3000",
+    "wine%": "2.7000",
+    "spirits%": "68.9000"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "alcoloholPerYear": "20.1000",
+    "alcoholPerDay": "43.5000",
+    "beer%": "19.8000",
+    "wine%": "80.2000",
+    "spirits%": 0
+  },
+  {
+    "country": "Paraguay",
+    "alcoloholPerYear": "20.1000",
+    "alcoholPerDay": "43.5000",
+    "beer%": "54.2000",
+    "wine%": "17.4000",
+    "spirits%": "27.3000"
+  },
+  {
+    "country": "Russia",
+    "alcoloholPerYear": "20.1000",
+    "alcoholPerDay": "43.5000",
+    "beer%": 39,
+    "wine%": "12.8000",
+    "spirits%": "38.6000"
+  },
+  {
+    "country": "Philippines",
+    "alcoloholPerYear": "19.9000",
+    "alcoholPerDay": "43.1000",
+    "beer%": "27.3000",
+    "wine%": "0.4000",
+    "spirits%": 72
+  },
+  {
+    "country": "Saint Lucia",
+    "alcoloholPerYear": "19.8000",
+    "alcoholPerDay": "42.8000",
+    "beer%": "35.4000",
+    "wine%": "13.2000",
+    "spirits%": 50
+  },
+  {
+    "country": "Brazil",
+    "alcoloholPerYear": "19.3000",
+    "alcoholPerDay": "41.7000",
+    "beer%": "61.8000",
+    "wine%": "3.4000",
+    "spirits%": "34.3000"
+  },
+  {
+    "country": "Bulgaria",
+    "alcoloholPerYear": "19.2000",
+    "alcoholPerDay": "41.5000",
+    "beer%": "38.8000",
+    "wine%": "17.2000",
+    "spirits%": "42.9000"
+  },
+  {
+    "country": "Kazakhstan",
+    "alcoloholPerYear": "19.2000",
+    "alcoholPerDay": "41.5000",
+    "beer%": "30.5000",
+    "wine%": "6.5000",
+    "spirits%": "62.9000"
+  },
+  {
+    "country": "Czech Republic",
+    "alcoloholPerYear": "19.1000",
+    "alcoholPerDay": "41.3000",
+    "beer%": "53.3000",
+    "wine%": "21.3000",
+    "spirits%": "25.4000"
+  },
+  {
+    "country": "Barbados",
+    "alcoloholPerYear": 19,
+    "alcoholPerDay": "41.1000",
+    "beer%": "37.6000",
+    "wine%": "10.5000",
+    "spirits%": 50
+  },
+  {
+    "country": "Lithuania",
+    "alcoloholPerYear": "18.9000",
+    "alcoholPerDay": 41,
+    "beer%": "43.6000",
+    "wine%": "7.3000",
+    "spirits%": "37.1000"
+  },
+  {
+    "country": "Romania",
+    "alcoloholPerYear": "18.8000",
+    "alcoholPerDay": "40.7000",
+    "beer%": "55.6000",
+    "wine%": "28.1000",
+    "spirits%": "16.4000"
+  },
+  {
+    "country": "Grenada",
+    "alcoloholPerYear": "18.7000",
+    "alcoholPerDay": "40.4000",
+    "beer%": "40.9000",
+    "wine%": 7,
+    "spirits%": "48.3000"
+  },
+  {
+    "country": "Liberia",
+    "alcoloholPerYear": "18.7000",
+    "alcoholPerDay": "40.5000",
+    "beer%": "9.4000",
+    "wine%": "1.8000",
+    "spirits%": "88.2000"
+  },
+  {
+    "country": "Serbia",
+    "alcoloholPerYear": "18.5000",
+    "alcoholPerDay": "39.9000",
+    "beer%": 32,
+    "wine%": "42.5000",
+    "spirits%": "25.4000"
+  },
+  {
+    "country": "Sierra Leone",
+    "alcoloholPerYear": "18.3000",
+    "alcoholPerDay": "39.5000",
+    "beer%": 4,
+    "wine%": "1.1000",
+    "spirits%": 0
+  },
+  {
+    "country": "Dominica",
+    "alcoloholPerYear": 18,
+    "alcoholPerDay": 39,
+    "beer%": "11.1000",
+    "wine%": 0,
+    "spirits%": "88.9000"
+  },
+  {
+    "country": "Turkmenistan",
+    "alcoloholPerYear": "17.8000",
+    "alcoholPerDay": "38.6000",
+    "beer%": "26.8000",
+    "wine%": "35.1000",
+    "spirits%": 38
+  },
+  {
+    "country": "Portugal",
+    "alcoloholPerYear": "17.8000",
+    "alcoholPerDay": "38.4000",
+    "beer%": "26.1000",
+    "wine%": "61.5000",
+    "spirits%": "7.7000"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "alcoloholPerYear": "17.7000",
+    "alcoholPerDay": "38.2000",
+    "beer%": "36.6000",
+    "wine%": "3.6000",
+    "spirits%": "57.2000"
+  },
+  {
+    "country": "Slovenia",
+    "alcoloholPerYear": "17.7000",
+    "alcoholPerDay": "38.3000",
+    "beer%": "41.4000",
+    "wine%": "50.6000",
+    "spirits%": 8
+  },
+  {
+    "country": "Zambia",
+    "alcoloholPerYear": "17.7000",
+    "alcoholPerDay": "38.3000",
+    "beer%": "36.4000",
+    "wine%": "2.7000",
+    "spirits%": "0.4000"
+  },
+  {
+    "country": "Myanmar",
+    "alcoloholPerYear": "17.6000",
+    "alcoholPerDay": "38.1000",
+    "beer%": "22.4000",
+    "wine%": "9.8000",
+    "spirits%": "67.7000"
+  },
+  {
+    "country": "Latvia",
+    "alcoloholPerYear": "17.2000",
+    "alcoholPerDay": "37.2000",
+    "beer%": "42.8000",
+    "wine%": "11.1000",
+    "spirits%": 40
+  },
+  {
+    "country": "Gabon",
+    "alcoloholPerYear": "17.2000",
+    "alcoholPerDay": "37.2000",
+    "beer%": "76.3000",
+    "wine%": "9.2000",
+    "spirits%": "13.4000"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "alcoloholPerYear": "17.1000",
+    "alcoholPerDay": 37,
+    "beer%": "47.8000",
+    "wine%": "6.5000",
+    "spirits%": "43.4000"
+  },
+  {
+    "country": "Hungary",
+    "alcoloholPerYear": "17.1000",
+    "alcoholPerDay": 37,
+    "beer%": "35.5000",
+    "wine%": "32.2000",
+    "spirits%": "32.3000"
+  },
+  {
+    "country": "Poland",
+    "alcoloholPerYear": "17.1000",
+    "alcoholPerDay": 37,
+    "beer%": "56.1000",
+    "wine%": "7.8000",
+    "spirits%": "36.1000"
+  },
+  {
+    "country": "Cape Verde",
+    "alcoloholPerYear": 17,
+    "alcoholPerDay": "36.7000",
+    "beer%": 55,
+    "wine%": 45,
+    "spirits%": 0
+  },
+  {
+    "country": "Fiji",
+    "alcoloholPerYear": "16.9000",
+    "alcoholPerDay": "36.5000",
+    "beer%": "69.8000",
+    "wine%": "1.2000",
+    "spirits%": "28.9000"
+  },
+  {
+    "country": "Germany",
+    "alcoloholPerYear": "16.9000",
+    "alcoholPerDay": "36.5000",
+    "beer%": "52.6000",
+    "wine%": "28.4000",
+    "spirits%": "18.9000"
+  },
+  {
+    "country": "France",
+    "alcoloholPerYear": "16.7000",
+    "alcoholPerDay": "36.1000",
+    "beer%": "18.8000",
+    "wine%": "58.8000",
+    "spirits%": "20.7000"
+  },
+  {
+    "country": "Slovakia",
+    "alcoloholPerYear": "16.6000",
+    "alcoholPerDay": "35.8000",
+    "beer%": "33.7000",
+    "wine%": "20.9000",
+    "spirits%": "41.9000"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "alcoloholPerYear": "16.5000",
+    "alcoholPerDay": "35.6000",
+    "beer%": "13.7000",
+    "wine%": "31.3000",
+    "spirits%": "13.7000"
+  },
+  {
+    "country": "Panama",
+    "alcoloholPerYear": "16.5000",
+    "alcoholPerDay": "35.7000",
+    "beer%": "76.9000",
+    "wine%": "3.5000",
+    "spirits%": "19.4000"
+  },
+  {
+    "country": "Haiti",
+    "alcoloholPerYear": "16.5000",
+    "alcoholPerDay": "35.6000",
+    "beer%": "2.3000",
+    "wine%": "0.3000",
+    "spirits%": "97.3000"
+  },
+  {
+    "country": "Belize",
+    "alcoloholPerYear": "16.3000",
+    "alcoholPerDay": "35.1000",
+    "beer%": "69.1000",
+    "wine%": "1.9000",
+    "spirits%": "26.7000"
+  },
+  {
+    "country": "Micronesia",
+    "alcoloholPerYear": "16.1000",
+    "alcoholPerDay": "34.9000",
+    "beer%": "58.1000",
+    "wine%": "8.5000",
+    "spirits%": "32.8000"
+  },
+  {
+    "country": "Guyana",
+    "alcoloholPerYear": "16.1000",
+    "alcoholPerDay": "34.7000",
+    "beer%": "48.4000",
+    "wine%": "0.2000",
+    "spirits%": "50.8000"
+  },
+  {
+    "country": "Ireland",
+    "alcoloholPerYear": 16,
+    "alcoholPerDay": "34.6000",
+    "beer%": 47,
+    "wine%": 28,
+    "spirits%": "18.8000"
+  },
+  {
+    "country": "Dominican Republic",
+    "alcoloholPerYear": 16,
+    "alcoholPerDay": "34.5000",
+    "beer%": "52.2000",
+    "wine%": "4.4000",
+    "spirits%": "41.9000"
+  },
+  {
+    "country": "South Korea",
+    "alcoloholPerYear": 16,
+    "alcoholPerDay": "34.6000",
+    "beer%": "22.2000",
+    "wine%": "1.9000",
+    "spirits%": "7.1000"
+  },
+  {
+    "country": "Estonia",
+    "alcoloholPerYear": "15.9000",
+    "alcoholPerDay": "34.4000",
+    "beer%": "32.7000",
+    "wine%": "7.4000",
+    "spirits%": "50.3000"
+  },
+  {
+    "country": "Nicaragua",
+    "alcoloholPerYear": "15.9000",
+    "alcoholPerDay": "34.5000",
+    "beer%": "39.7000",
+    "wine%": "0.8000",
+    "spirits%": "59.5000"
+  },
+  {
+    "country": "Greece",
+    "alcoloholPerYear": "15.9000",
+    "alcoholPerDay": "34.5000",
+    "beer%": "31.5000",
+    "wine%": "45.5000",
+    "spirits%": "21.8000"
+  },
+  {
+    "country": "Belgium",
+    "alcoloholPerYear": "15.9000",
+    "alcoholPerDay": "34.3000",
+    "beer%": "44.4000",
+    "wine%": "38.3000",
+    "spirits%": "14.2000"
+  },
+  {
+    "country": "Tajikistan",
+    "alcoloholPerYear": "15.8000",
+    "alcoholPerDay": "34.2000",
+    "beer%": "37.9000",
+    "wine%": "0.7000",
+    "spirits%": "60.9000"
+  },
+  {
+    "country": "Samoa",
+    "alcoloholPerYear": "15.7000",
+    "alcoholPerDay": "33.9000",
+    "beer%": "94.1000",
+    "wine%": "5.9000",
+    "spirits%": 0
+  },
+  {
+    "country": "Uruguay",
+    "alcoloholPerYear": "15.7000",
+    "alcoholPerDay": 34,
+    "beer%": "35.2000",
+    "wine%": "43.7000",
+    "spirits%": "21.1000"
+  },
+  {
+    "country": "Cyprus",
+    "alcoloholPerYear": "15.6000",
+    "alcoholPerDay": "33.8000",
+    "beer%": "29.7000",
+    "wine%": "28.4000",
+    "spirits%": "41.9000"
+  },
+  {
+    "country": "United Kingdom",
+    "alcoloholPerYear": "15.6000",
+    "alcoholPerDay": "33.7000",
+    "beer%": 35,
+    "wine%": "35.7000",
+    "spirits%": "22.5000"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "alcoloholPerYear": "15.5000",
+    "alcoholPerDay": "33.5000",
+    "beer%": 83,
+    "wine%": 17,
+    "spirits%": 0
+  },
+  {
+    "country": "Syria",
+    "alcoloholPerYear": "15.5000",
+    "alcoholPerDay": "33.4000",
+    "beer%": "11.6000",
+    "wine%": "1.1000",
+    "spirits%": "87.2000"
+  },
+  {
+    "country": "Malawi",
+    "alcoloholPerYear": "15.5000",
+    "alcoholPerDay": "33.4000",
+    "beer%": "8.8000",
+    "wine%": "0.8000",
+    "spirits%": "11.3000"
+  },
+  {
+    "country": "Mexico",
+    "alcoloholPerYear": "15.3000",
+    "alcoholPerDay": "33.1000",
+    "beer%": "77.1000",
+    "wine%": "2.1000",
+    "spirits%": "20.4000"
+  },
+  {
+    "country": "Belarus",
+    "alcoloholPerYear": "15.2000",
+    "alcoholPerDay": "32.8000",
+    "beer%": "22.8000",
+    "wine%": "2.2000",
+    "spirits%": 49
+  },
+  {
+    "country": "Colombia",
+    "alcoloholPerYear": "15.2000",
+    "alcoholPerDay": "32.9000",
+    "beer%": "71.3000",
+    "wine%": "1.1000",
+    "spirits%": "27.2000"
+  },
+  {
+    "country": "Andorra",
+    "alcoloholPerYear": "15.1000",
+    "alcoholPerDay": "32.7000",
+    "beer%": "34.1000",
+    "wine%": 42,
+    "spirits%": "23.9000"
+  },
+  {
+    "country": "Macedonia",
+    "alcoloholPerYear": "15.1000",
+    "alcoholPerDay": "32.7000",
+    "beer%": "35.3000",
+    "wine%": "46.6000",
+    "spirits%": "17.4000"
+  },
+  {
+    "country": "Republic of the Congo",
+    "alcoloholPerYear": "15.1000",
+    "alcoholPerDay": "32.7000",
+    "beer%": "84.4000",
+    "wine%": "4.7000",
+    "spirits%": "10.3000"
+  },
+  {
+    "country": "Croatia",
+    "alcoloholPerYear": 15,
+    "alcoholPerDay": "32.4000",
+    "beer%": "44.5000",
+    "wine%": 39,
+    "spirits%": 13
+  },
+  {
+    "country": "Austria",
+    "alcoloholPerYear": "14.9000",
+    "alcoholPerDay": "32.2000",
+    "beer%": "53.5000",
+    "wine%": "31.6000",
+    "spirits%": "14.9000"
+  },
+  {
+    "country": "Sri Lanka",
+    "alcoloholPerYear": "14.9000",
+    "alcoholPerDay": "32.2000",
+    "beer%": "13.2000",
+    "wine%": "0.3000",
+    "spirits%": "84.9000"
+  },
+  {
+    "country": "Venezuela",
+    "alcoloholPerYear": "14.9000",
+    "alcoholPerDay": "32.1000",
+    "beer%": "69.2000",
+    "wine%": "0.3000",
+    "spirits%": "29.2000"
+  },
+  {
+    "country": "Montenegro",
+    "alcoloholPerYear": "14.8000",
+    "alcoholPerDay": "32.1000",
+    "beer%": "10.8000",
+    "wine%": "43.1000",
+    "spirits%": "44.1000"
+  },
+  {
+    "country": "Finland",
+    "alcoloholPerYear": "14.8000",
+    "alcoholPerDay": "31.9000",
+    "beer%": "48.8000",
+    "wine%": "20.6000",
+    "spirits%": "21.5000"
+  },
+  {
+    "country": "Albania",
+    "alcoloholPerYear": "14.6000",
+    "alcoholPerDay": "31.7000",
+    "beer%": "34.3000",
+    "wine%": "26.5000",
+    "spirits%": "37.6000"
+  },
+  {
+    "country": "Argentina",
+    "alcoloholPerYear": "14.6000",
+    "alcoholPerDay": "31.5000",
+    "beer%": "39.9000",
+    "wine%": "40.2000",
+    "spirits%": "9.6000"
+  },
+  {
+    "country": "Spain",
+    "alcoloholPerYear": "14.6000",
+    "alcoholPerDay": "31.5000",
+    "beer%": "54.2000",
+    "wine%": 18,
+    "spirits%": "27.8000"
+  },
+  {
+    "country": "India",
+    "alcoloholPerYear": "14.6000",
+    "alcoholPerDay": "31.5000",
+    "beer%": "7.5000",
+    "wine%": "0.1000",
+    "spirits%": "92.4000"
+  },
+  {
+    "country": "New Zealand",
+    "alcoloholPerYear": "14.3000",
+    "alcoholPerDay": "30.9000",
+    "beer%": "37.4000",
+    "wine%": "33.4000",
+    "spirits%": "28.9000"
+  },
+  {
+    "country": "Egypt",
+    "alcoloholPerYear": "14.3000",
+    "alcoholPerDay": 31,
+    "beer%": 62,
+    "wine%": "4.4000",
+    "spirits%": "33.1000"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "alcoloholPerYear": "14.2000",
+    "alcoholPerDay": "30.7000",
+    "beer%": 33,
+    "wine%": "18.3000",
+    "spirits%": "45.4000"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "alcoloholPerYear": "14.2000",
+    "alcoholPerDay": "30.8000",
+    "beer%": "57.9000",
+    "wine%": "3.3000",
+    "spirits%": "37.1000"
+  },
+  {
+    "country": "Switzerland",
+    "alcoloholPerYear": "14.2000",
+    "alcoholPerDay": "30.6000",
+    "beer%": "32.1000",
+    "wine%": "48.1000",
+    "spirits%": "18.5000"
+  },
+  {
+    "country": "Luxembourg",
+    "alcoloholPerYear": "14.1000",
+    "alcoholPerDay": "30.6000",
+    "beer%": "35.4000",
+    "wine%": "44.6000",
+    "spirits%": 20
+  },
+  {
+    "country": "Gambia",
+    "alcoloholPerYear": "14.1000",
+    "alcoholPerDay": "30.4000",
+    "beer%": "8.5000",
+    "wine%": "2.1000",
+    "spirits%": 0
+  },
+  {
+    "country": "Kenya",
+    "alcoloholPerYear": "14.1000",
+    "alcoholPerDay": "30.4000",
+    "beer%": "39.8000",
+    "wine%": "1.8000",
+    "spirits%": "21.4000"
+  },
+  {
+    "country": "Japan",
+    "alcoloholPerYear": "14.1000",
+    "alcoholPerDay": "30.4000",
+    "beer%": "18.2000",
+    "wine%": "5.5000",
+    "spirits%": 40
+  },
+  {
+    "country": "Denmark",
+    "alcoloholPerYear": "13.9000",
+    "alcoholPerDay": "30.1000",
+    "beer%": "37.4000",
+    "wine%": "44.7000",
+    "spirits%": "17.1000"
+  },
+  {
+    "country": "Canada",
+    "alcoloholPerYear": "13.8000",
+    "alcoholPerDay": "29.9000",
+    "beer%": "45.1000",
+    "wine%": "25.6000",
+    "spirits%": "25.6000"
+  },
+  {
+    "country": "Ukraine",
+    "alcoloholPerYear": "13.8000",
+    "alcoholPerDay": "29.9000",
+    "beer%": "42.3000",
+    "wine%": "5.4000",
+    "spirits%": "51.5000"
+  },
+  {
+    "country": "Chile",
+    "alcoloholPerYear": "13.7000",
+    "alcoholPerDay": "29.6000",
+    "beer%": "36.1000",
+    "wine%": "33.1000",
+    "spirits%": "30.8000"
+  },
+  {
+    "country": "United States",
+    "alcoloholPerYear": "13.7000",
+    "alcoholPerDay": "29.6000",
+    "beer%": 47,
+    "wine%": "18.1000",
+    "spirits%": "34.9000"
+  },
+  {
+    "country": "Honduras",
+    "alcoloholPerYear": "13.5000",
+    "alcoholPerDay": "29.1000",
+    "beer%": "46.6000",
+    "wine%": "1.2000",
+    "spirits%": "52.1000"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "alcoloholPerYear": "13.4000",
+    "alcoholPerDay": 29,
+    "beer%": "75.8000",
+    "wine%": "8.6000",
+    "spirits%": "12.4000"
+  },
+  {
+    "country": "Australia",
+    "alcoloholPerYear": "13.4000",
+    "alcoholPerDay": "28.9000",
+    "beer%": "39.9000",
+    "wine%": "37.5000",
+    "spirits%": "12.9000"
+  },
+  {
+    "country": "Angola",
+    "alcoloholPerYear": "13.4000",
+    "alcoholPerDay": 29,
+    "beer%": "70.3000",
+    "wine%": "17.6000",
+    "spirits%": "11.3000"
+  },
+  {
+    "country": "Cuba",
+    "alcoloholPerYear": "13.2000",
+    "alcoholPerDay": "28.5000",
+    "beer%": "37.3000",
+    "wine%": "4.9000",
+    "spirits%": "57.4000"
+  },
+  {
+    "country": "Costa Rica",
+    "alcoloholPerYear": 13,
+    "alcoholPerDay": "28.1000",
+    "beer%": "64.1000",
+    "wine%": "7.2000",
+    "spirits%": "27.9000"
+  },
+  {
+    "country": "China",
+    "alcoloholPerYear": "12.9000",
+    "alcoholPerDay": "27.9000",
+    "beer%": "29.6000",
+    "wine%": "3.1000",
+    "spirits%": "67.2000"
+  },
+  {
+    "country": "Iceland",
+    "alcoloholPerYear": "12.8000",
+    "alcoholPerDay": "27.6000",
+    "beer%": "56.5000",
+    "wine%": "27.9000",
+    "spirits%": "15.5000"
+  },
+  {
+    "country": "Malta",
+    "alcoloholPerYear": "12.8000",
+    "alcoholPerDay": "27.8000",
+    "beer%": "36.4000",
+    "wine%": "29.9000",
+    "spirits%": "28.7000"
+  },
+  {
+    "country": "El Salvador",
+    "alcoloholPerYear": "12.8000",
+    "alcoholPerDay": "27.6000",
+    "beer%": "47.8000",
+    "wine%": "1.3000",
+    "spirits%": "50.7000"
+  },
+  {
+    "country": "Uzbekistan",
+    "alcoloholPerYear": "12.8000",
+    "alcoholPerDay": "27.7000",
+    "beer%": "34.4000",
+    "wine%": "8.6000",
+    "spirits%": "56.9000"
+  },
+  {
+    "country": "Ethiopia",
+    "alcoloholPerYear": "12.6000",
+    "alcoholPerDay": "27.3000",
+    "beer%": "54.6000",
+    "wine%": "0.3000",
+    "spirits%": "8.3000"
+  },
+  {
+    "country": "Sweden",
+    "alcoloholPerYear": "12.5000",
+    "alcoholPerDay": "27.1000",
+    "beer%": "36.4000",
+    "wine%": "47.8000",
+    "spirits%": "14.1000"
+  },
+  {
+    "country": "Iraq",
+    "alcoloholPerYear": "12.4000",
+    "alcoholPerDay": "26.7000",
+    "beer%": 71,
+    "wine%": "2.4000",
+    "spirits%": "25.7000"
+  },
+  {
+    "country": "Suriname",
+    "alcoloholPerYear": "12.1000",
+    "alcoholPerDay": "26.2000",
+    "beer%": "44.9000",
+    "wine%": "3.5000",
+    "spirits%": "48.8000"
+  },
+  {
+    "country": "Tuvalu",
+    "alcoloholPerYear": 12,
+    "alcoholPerDay": "25.9000",
+    "beer%": "0.6000",
+    "wine%": "84.7000",
+    "spirits%": "14.1000"
+  },
+  {
+    "country": "Togo",
+    "alcoloholPerYear": 12,
+    "alcoholPerDay": 26,
+    "beer%": 37,
+    "wine%": 16,
+    "spirits%": "18.2000"
+  },
+  {
+    "country": "Netherlands",
+    "alcoloholPerYear": 12,
+    "alcoholPerDay": 26,
+    "beer%": "47.8000",
+    "wine%": "35.8000",
+    "spirits%": "16.4000"
+  },
+  {
+    "country": "Italy",
+    "alcoloholPerYear": 12,
+    "alcoholPerDay": "25.9000",
+    "beer%": "25.4000",
+    "wine%": "64.8000",
+    "spirits%": "9.8000"
+  },
+  {
+    "country": "Jamaica",
+    "alcoloholPerYear": "11.9000",
+    "alcoholPerDay": "25.8000",
+    "beer%": "36.3000",
+    "wine%": "4.8000",
+    "spirits%": "54.2000"
+  },
+  {
+    "country": "Peru",
+    "alcoloholPerYear": "11.8000",
+    "alcoholPerDay": "25.6000",
+    "beer%": "60.1000",
+    "wine%": "8.1000",
+    "spirits%": "31.8000"
+  },
+  {
+    "country": "Benin",
+    "alcoloholPerYear": "11.6000",
+    "alcoholPerDay": "25.1000",
+    "beer%": "63.7000",
+    "wine%": "9.6000",
+    "spirits%": "13.1000"
+  },
+  {
+    "country": "Mauritius",
+    "alcoloholPerYear": "11.5000",
+    "alcoholPerDay": 25,
+    "beer%": "53.9000",
+    "wine%": "15.4000",
+    "spirits%": "30.8000"
+  },
+  {
+    "country": "Mozambique",
+    "alcoloholPerYear": "11.4000",
+    "alcoholPerDay": "24.6000",
+    "beer%": "78.7000",
+    "wine%": "8.3000",
+    "spirits%": "12.4000"
+  },
+  {
+    "country": "Tonga",
+    "alcoloholPerYear": "10.7000",
+    "alcoholPerDay": "23.1000",
+    "beer%": "60.7000",
+    "wine%": "11.5000",
+    "spirits%": "27.9000"
+  },
+  {
+    "country": "Bolivia",
+    "alcoloholPerYear": "10.5000",
+    "alcoholPerDay": "22.6000",
+    "beer%": "72.8000",
+    "wine%": "4.3000",
+    "spirits%": "21.3000"
+  },
+  {
+    "country": "Solomon Islands",
+    "alcoloholPerYear": "10.4000",
+    "alcoholPerDay": "22.6000",
+    "beer%": "93.3000",
+    "wine%": "2.9000",
+    "spirits%": "3.3000"
+  },
+  {
+    "country": "Ghana",
+    "alcoloholPerYear": "10.2000",
+    "alcoholPerDay": "22.1000",
+    "beer%": "28.3000",
+    "wine%": "6.6000",
+    "spirits%": 8
+  },
+  {
+    "country": "Bahamas",
+    "alcoloholPerYear": "10.1000",
+    "alcoholPerDay": "21.9000",
+    "beer%": "39.2000",
+    "wine%": "16.6000",
+    "spirits%": "41.2000"
+  },
+  {
+    "country": "North Korea",
+    "alcoloholPerYear": "9.6000",
+    "alcoholPerDay": "20.7000",
+    "beer%": "2.7000",
+    "wine%": 0,
+    "spirits%": "97.3000"
+  },
+  {
+    "country": "Timor-Leste",
+    "alcoloholPerYear": "9.5000",
+    "alcoholPerDay": "20.5000",
+    "beer%": "67.6000",
+    "wine%": "32.4000",
+    "spirits%": 0
+  },
+  {
+    "country": "Ecuador",
+    "alcoloholPerYear": "9.5000",
+    "alcoholPerDay": "20.6000",
+    "beer%": "79.9000",
+    "wine%": "1.5000",
+    "spirits%": "17.8000"
+  },
+  {
+    "country": "Norway",
+    "alcoloholPerYear": "9.4000",
+    "alcoholPerDay": "20.4000",
+    "beer%": "43.9000",
+    "wine%": "36.7000",
+    "spirits%": "16.7000"
+  },
+  {
+    "country": "Yemen",
+    "alcoloholPerYear": "9.4000",
+    "alcoholPerDay": "20.3000",
+    "beer%": "89.5000",
+    "wine%": 0,
+    "spirits%": "10.5000"
+  },
+  {
+    "country": "Madagascar",
+    "alcoloholPerYear": "9.2000",
+    "alcoholPerDay": 20,
+    "beer%": "53.8000",
+    "wine%": "8.2000",
+    "spirits%": 38
+  },
+  {
+    "country": "Oman",
+    "alcoloholPerYear": "9.1000",
+    "alcoholPerDay": "19.7000",
+    "beer%": "39.8000",
+    "wine%": "2.8000",
+    "spirits%": 57
+  },
+  {
+    "country": "Guatemala",
+    "alcoloholPerYear": 9,
+    "alcoholPerDay": "19.4000",
+    "beer%": "56.1000",
+    "wine%": "2.1000",
+    "spirits%": "41.7000"
+  },
+  {
+    "country": "Central African Republic",
+    "alcoloholPerYear": "8.8000",
+    "alcoholPerDay": 19,
+    "beer%": "25.9000",
+    "wine%": "0.7000",
+    "spirits%": 0
+  },
+  {
+    "country": "Papua New Guinea",
+    "alcoloholPerYear": "8.6000",
+    "alcoholPerDay": "18.5000",
+    "beer%": "95.2000",
+    "wine%": "2.7000",
+    "spirits%": "2.1000"
+  },
+  {
+    "country": "Vanuatu",
+    "alcoloholPerYear": "7.4000",
+    "alcoholPerDay": "15.9000",
+    "beer%": "38.5000",
+    "wine%": "25.4000",
+    "spirits%": "36.1000"
+  },
+  {
+    "country": "Nepal",
+    "alcoloholPerYear": "7.4000",
+    "alcoholPerDay": "16.1000",
+    "beer%": 31,
+    "wine%": 49,
+    "spirits%": 20
+  },
+  {
+    "country": "DR Congo",
+    "alcoloholPerYear": "7.1000",
+    "alcoholPerDay": "15.3000",
+    "beer%": "38.9000",
+    "wine%": "0.6000",
+    "spirits%": "0.7000"
+  },
+  {
+    "country": "Israel",
+    "alcoloholPerYear": 7,
+    "alcoholPerDay": "15.1000",
+    "beer%": "54.4000",
+    "wine%": "4.7000",
+    "spirits%": "39.5000"
+  },
+  {
+    "country": "Chad",
+    "alcoloholPerYear": "6.9000",
+    "alcoholPerDay": "14.9000",
+    "beer%": "70.2000",
+    "wine%": 1,
+    "spirits%": "5.3000"
+  },
+  {
+    "country": "Eritrea",
+    "alcoloholPerYear": "6.3000",
+    "alcoholPerDay": "13.5000",
+    "beer%": "62.1000",
+    "wine%": "0.1000",
+    "spirits%": "0.2000"
+  },
+  {
+    "country": "Guinea",
+    "alcoloholPerYear": "5.8000",
+    "alcoholPerDay": "12.5000",
+    "beer%": "91.1000",
+    "wine%": "8.9000",
+    "spirits%": 0
+  },
+  {
+    "country": "Mali",
+    "alcoloholPerYear": "5.7000",
+    "alcoholPerDay": "12.4000",
+    "beer%": "15.8000",
+    "wine%": "1.2000",
+    "spirits%": 0
+  },
+  {
+    "country": "Qatar",
+    "alcoloholPerYear": "4.4000",
+    "alcoholPerDay": "9.4000",
+    "beer%": "25.9000",
+    "wine%": "10.2000",
+    "spirits%": "63.4000"
+  },
+  {
+    "country": "Mauritania",
+    "alcoloholPerYear": "3.8000",
+    "alcoholPerDay": "8.1000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Saudi Arabia",
+    "alcoloholPerYear": "3.8000",
+    "alcoholPerDay": "8.1000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Kiribati",
+    "alcoloholPerYear": "3.7000",
+    "alcoholPerDay": "7.9000",
+    "beer%": 100,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Azerbaijan",
+    "alcoloholPerYear": "3.7000",
+    "alcoholPerDay": "8.1000",
+    "beer%": "61.5000",
+    "wine%": "36.9000",
+    "spirits%": 0
+  },
+  {
+    "country": "Senegal",
+    "alcoloholPerYear": "3.5000",
+    "alcoholPerDay": "7.6000",
+    "beer%": "56.4000",
+    "wine%": "34.1000",
+    "spirits%": "8.5000"
+  },
+  {
+    "country": "Indonesia",
+    "alcoloholPerYear": "3.4000",
+    "alcoholPerDay": "7.4000",
+    "beer%": "18.5000",
+    "wine%": "76.4000",
+    "spirits%": "4.6000"
+  },
+  {
+    "country": "Malaysia",
+    "alcoloholPerYear": "3.1000",
+    "alcoholPerDay": "6.7000",
+    "beer%": "60.7000",
+    "wine%": 21,
+    "spirits%": "17.4000"
+  },
+  {
+    "country": "Singapore",
+    "alcoloholPerYear": "2.9000",
+    "alcoholPerDay": "6.3000",
+    "beer%": 70,
+    "wine%": "14.6000",
+    "spirits%": "13.4000"
+  },
+  {
+    "country": "Djibouti",
+    "alcoloholPerYear": "2.7000",
+    "alcoholPerDay": "5.8000",
+    "beer%": "27.5000",
+    "wine%": "16.7000",
+    "spirits%": 55
+  },
+  {
+    "country": "Niger",
+    "alcoloholPerYear": "2.5000",
+    "alcoholPerDay": "5.4000",
+    "beer%": 45,
+    "wine%": "13.7000",
+    "spirits%": "41.4000"
+  },
+  {
+    "country": "Bhutan",
+    "alcoloholPerYear": "1.9000",
+    "alcoholPerDay": "4.2000",
+    "beer%": "46.2000",
+    "wine%": "4.2000",
+    "spirits%": "49.6000"
+  },
+  {
+    "country": "Somalia",
+    "alcoloholPerYear": "1.5000",
+    "alcoholPerDay": "3.3000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Brunei",
+    "alcoloholPerYear": "1.3000",
+    "alcoholPerDay": "2.8000",
+    "beer%": 100,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Kuwait",
+    "alcoloholPerYear": 1,
+    "alcoholPerDay": "2.1000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  },
+  {
+    "country": "Bangladesh",
+    "alcoloholPerYear": "0.9000",
+    "alcoholPerDay": "2.1000",
+    "beer%": 0,
+    "wine%": 0,
+    "spirits%": 0
+  }
+]

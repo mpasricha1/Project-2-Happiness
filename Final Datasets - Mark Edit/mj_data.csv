@@ -1,0 +1,216 @@
+InCountryID,countryName,InCountryID,region
+1,Afghanistan,1,South Asia
+2,Albania,2,Central and Eastern Europe
+3,Algeria,3,Middle East and North Africa
+4,Andorra,4,Western Europe
+5,Angola,5,Sub-Saharan Africa
+6,Antigua and Barbuda,6,Latin America and Caribbean
+7,Argentina,7,Latin America and Caribbean
+8,Armenia,8,Commonwealth of Independent States
+9,Australia,9,Oceania
+10,Austria,10,Western Europe
+11,Azerbaijan,11,Commonwealth of Independent States
+12,Bahamas,12,Latin America and Caribbean
+13,Bahrain,13,Middle East and North Africa
+14,Bangladesh,14,South Asia
+15,Barbados,15,Latin America and Caribbean
+16,Belarus,16,Commonwealth of Independent States
+17,Belgium,17,Western Europe
+18,Belize,18,Latin America and Caribbean
+19,Benin,19,Sub-Saharan Africa
+20,Bermuda,20,Latin America and Caribbean
+21,Bhutan,21,South Asia
+22,Bolivia,22,Latin America and Caribbean
+23,Bosnia and Herzegovina,23,Central and Eastern Europe
+24,Botswana,24,Sub-Saharan Africa
+25,Brazil,25,Latin America and Caribbean
+26,Brunei,26,South Asia
+27,Bulgaria,27,Central and Eastern Europe
+28,Burkina Faso,28,Sub-Saharan Africa
+29,Burundi,29,Sub-Saharan Africa
+30,Cambodia,30,Southeast Asia
+31,Cameroon,31,Sub-Saharan Africa
+32,Canada,32,North America
+33,Cape Verde,33,Sub-Saharan Africa
+34,Central African Republic,34,Sub-Saharan Africa
+35,Chad,35,Sub-Saharan Africa
+36,Chile,36,Latin America and Caribbean
+37,China,37,East Asia
+38,Colombia,38,Latin America and Caribbean
+39,Comoros,39,Sub-Saharan Africa
+40,Congo,40,Sub-Saharan Africa
+41,Congo (Brazzaville),41,Sub-Saharan Africa
+42,Congo (Kinshasa),42,Sub-Saharan Africa
+43,Costa Rica,43,Latin America and Caribbean
+44,Croatia,44,Central and Eastern Europe
+45,Cuba,45,Latin America and Caribbean
+46,Cyprus,46,Western Europe
+47,Czech Republic,47,Central and Eastern Europe
+48,Denmark,48,Western Europe
+49,Djibouti,49,Middle East and North Africa
+50,Dominica,50,Latin America and Caribbean
+51,Dominican Republic,51,Latin America and Caribbean
+52,East Timor,52,South Asia
+53,Ecuador,53,Latin America and Caribbean
+54,Greece,54,Western Europe
+55,Guatemala,55,Latin America and Caribbean
+56,Egypt,56,Middle East and North Africa
+57,El Salvador,57,Latin America and Caribbean
+58,Guinea,58,Sub-Saharan Africa
+59,Haiti,59,Latin America and Caribbean
+60,Equatorial Guinea,60,Sub-Saharan Africa
+61,Honduras,61,Latin America and Caribbean
+62,Eritrea,62,Sub-Saharan Africa
+63,Estonia,63,Central and Eastern Europe
+64,Hong Kong S.A.R. of China,64,East Asia
+65,Hungary,65,Central and Eastern Europe
+66,Eswatini (Swaziland),66,Sub-Saharan Africa
+67,Ethiopia,67,Sub-Saharan Africa
+68,Iceland,68,Western Europe
+69,India,69,South Asia
+70,Fiji,70,Oceania
+71,Indonesia,71,Southeast Asia
+72,Finland,72,Western Europe
+73,Iran,73,Middle East and North Africa
+74,France,74,Western Europe
+75,Iraq,75,Middle East and North Africa
+76,Gabon,76,Sub-Saharan Africa
+77,Gambia,77,Sub-Saharan Africa
+78,Ireland,78,Western Europe
+79,Georgia,79,Commonwealth of Independent States
+80,Israel,80,Middle East and North Africa
+81,Germany,81,Western Europe
+82,Italy,82,Western Europe
+83,Ghana,83,Sub-Saharan Africa
+84,Ivory Coast,84,Sub-Saharan Africa
+85,Jamaica,85,Latin America and Caribbean
+86,Japan,86,East Asia
+87,Jordan,87,Middle East and North Africa
+88,Kazakhstan,88,Commonwealth of Independent States
+89,Kenya,89,Sub-Saharan Africa
+90,Kosovo,90,Central and Eastern Europe
+91,Kuwait,91,Middle East and North Africa
+92,Kyrgyzstan,92,Commonwealth of Independent States
+93,Laos,93,Southeast Asia
+94,Latvia,94,Central and Eastern Europe
+95,Lebanon,95,Middle East and North Africa
+96,Lesotho,96,Sub-Saharan Africa
+97,Liberia,97,Sub-Saharan Africa
+98,Libya,98,Middle East and North Africa
+99,Lithuania,99,Central and Eastern Europe
+100,Luxembourg,100,Western Europe
+101,Macedonia,101,Central and Eastern Europe
+102,Madagascar,102,Sub-Saharan Africa
+103,Malawi,103,Sub-Saharan Africa
+104,Malaysia,104,Southeast Asia
+105,Maldives,105,South Asia
+106,Mali,106,Sub-Saharan Africa
+107,Malta,107,Western Europe
+108,Mauritania,108,Sub-Saharan Africa
+109,Mauritius,109,Sub-Saharan Africa
+110,Mexico,110,Latin America and Caribbean
+111,Moldova,111,Commonwealth of Independent States
+112,Mongolia,112,East Asia
+113,Montenegro,113,Central and Eastern Europe
+114,Morocco,114,Middle East and North Africa
+115,Mozambique,115,Sub-Saharan Africa
+116,Myanmar,116,Southeast Asia
+117,Namibia,117,Sub-Saharan Africa
+118,Nepal,118,South Asia
+119,Netherlands,119,Western Europe
+120,New Zealand,120,Oceania
+121,Nicaragua,121,Latin America and Caribbean
+122,Niger,122,Sub-Saharan Africa
+123,Nigeria,123,Sub-Saharan Africa
+124,Northern Cyprus,124,Western Europe
+125,Norway,125,Western Europe
+126,Pakistan,126,South Asia
+127,Palestinian Territories,127,Middle East and North Africa
+128,Panama,128,Latin America and Caribbean
+129,Paraguay,129,Latin America and Caribbean
+130,Peru,130,Latin America and Caribbean
+131,Philippines,131,Southeast Asia
+132,Poland,132,Central and Eastern Europe
+133,Portugal,133,Western Europe
+134,Puerto Rico,134,Latin America and Caribbean
+135,Qatar,135,Middle East and North Africa
+136,Romania,136,Central and Eastern Europe
+137,Russia,137,Commonwealth of Independent States
+138,Rwanda,138,Sub-Saharan Africa
+139,Saudi Arabia,139,Middle East and North Africa
+140,Senegal,140,Sub-Saharan Africa
+141,Serbia,141,Central and Eastern Europe
+142,Sierra Leone,142,Sub-Saharan Africa
+143,Singapore,143,Southeast Asia
+144,Slovakia,144,Central and Eastern Europe
+145,Slovenia,145,Central and Eastern Europe
+146,Somalia,146,South Asia
+147,South Africa,147,Sub-Saharan Africa
+148,South Korea,148,East Asia
+149,South Sudan,149,Sub-Saharan Africa
+150,Spain,150,Western Europe
+151,Sri Lanka,151,South Asia
+152,Sudan,152,Sub-Saharan Africa
+153,Suriname,153,Middle East and North Africa
+154,Swaziland,154,Sub-Saharan Africa
+155,Sweden,155,Western Europe
+156,Switzerland,156,Western Europe
+157,Syria,157,Middle East and North Africa
+158,Taiwan Province of China,158,East Asia
+159,Tajikistan,159,Commonwealth of Independent States
+160,Tanzania,160,Sub-Saharan Africa
+161,Thailand,161,Southeast Asia
+162,Togo,162,Sub-Saharan Africa
+163,Trinidad and Tobago,163,Latin America and Caribbean
+164,Tunisia,164,Middle East and North Africa
+165,Turkey,165,Middle East and North Africa
+166,Turkmenistan,166,Commonwealth of Independent States
+167,Uganda,167,Sub-Saharan Africa
+168,Ukraine,168,Commonwealth of Independent States
+169,United Arab Emirates,169,Middle East and North Africa
+170,United Kingdom,170,Western Europe
+171,United States,171,North America
+172,Uruguay,172,Latin America and Caribbean
+173,Uzbekistan,173,Commonwealth of Independent States
+174,Venezuela,174,Latin America and Caribbean
+175,Vietnam,175,Southeast Asia
+176,Yemen,176,Middle East and North Africa
+177,Zambia,177,Sub-Saharan Africa
+178,Zimbabwe,178,Sub-Saharan Africa
+179,Greenland,179,Western Europe
+180,Grenada,180,Latin America and Caribbean
+181,Guinea-Bissau,181,Middle East and North Africa
+182,Guyana,182,Latin America and Caribbean
+183,Kiribati,183,South Pacific
+184,North Korea,184,East Asia
+185,Liechtenstein,185,Western Europe
+186,Marshall Islands,186,Oceania
+187,Micronesia,187,Oceania
+188,Monaco,188,Western Europe
+189,North Macedonia,189,Central and Eastern Europe
+190,Oman,190,Middle East and North Africa
+191,Palau,191,Oceania
+192,Papua New Guinea,192,Oceania
+193,Saint Kitts and Nevis,193,Latin America and Caribbean
+194,Saint Lucia,194,Latin America and Caribbean
+195,Saint Vincent and the Grenadines,195,Latin America and Caribbean
+196,Samoa,196,Oceania
+197,San Marino,197,Western Europe
+198,Seychelles,198,Sub-Saharan Africa
+199,Solomon Islands,199,Oceania
+200,Tonga,200,Oceania
+201,Tuvalu,201,Oceania
+202,Vanuatu,202,Austrailia and New Zealand
+203,Vatican City,203,Western Europe
+204,Macau,204,East Asia
+205,Martinique,205,Latin America and Caribbean
+206,England,206,Western Europe
+207,Gibraltar,207,Western Europe
+208,Guernsey / Jersey,208,Western Europe
+209,Isle Of Man,209,Western Europe
+210,Scotland,210,Western Europe
+211,Wales,211,Western Europe
+212,Sao Tome and Principe,212,Sub-Saharan Africa
+213,Cook Islands,213,Oceania
+214,Nauru,214,Oceania
+215,Niue,215,Oceania
