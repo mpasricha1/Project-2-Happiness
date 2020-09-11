@@ -28,7 +28,7 @@ def index():
 	return render_template('index.html')
 
 @app.route("/linedata", methods=["GET","POST"]) 
-def chorandlinedata(): 
+def linedata(): 
 	session = Session(engine)
 	sel = [CountryReference.countryname,Happiness.happinessrating,Happiness.year]
 
@@ -178,7 +178,6 @@ def calculatescore():
 
 	userData = session.query(UserData).\
 					order_by(UserData.id.desc()).first()
-
 
 	countryDict = calculateAlcoholScore(userData, countryDict)
 	countryDict = calculateFitnessScore(userData, countryDict)

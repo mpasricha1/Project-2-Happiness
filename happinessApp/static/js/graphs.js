@@ -27,9 +27,10 @@ $(function() {
 });
 function getScatterData(data, dropdownMenu){
 
-  $('#factorlist a').on('click', function(){
+  $('#factorlist a').on('click', function(event){
     var dropdownMenu = $(this).text();
     getScatterData(data,dropdownMenu)
+    event.preventDefault();
 
 });
  var column_number=0
@@ -167,7 +168,7 @@ function getlineData(data){
         family: 'Courier New', 
         size:16,
     },
-    yaxis: { title: "Happiness Rating"},
+    yaxis: { title: "Average Happiness Rating"},
         font:{
             family:'Courier New',
             size:12
