@@ -5,61 +5,64 @@ $(function() {
     success: function(data){
       var newData =  parseTableData(data)
       generateTable(newData)
+      createMap(data)
     }
   });
 });
 
+function createMap(data) {
+  console.log(data)
+  // Create the tile layer that will be the background of our map
+  var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 18,
+    id: "light-v10",
+    accessToken: "pk.eyJ1IjoibWZtNTEwNSIsImEiOiJja2VhaXlsY20wMTB0MnFvYnBlYnBxb28wIn0.URAgQMLtdtlVGg4APwqb0w"
+  });
+  // Create a baseMaps object to hold the lightmap layer
+  var baseMaps = {
+  "Light Map": lightmap
+  };
+  // Create an overlayMaps object to hold the map layer
+  var overlayMaps = {
+    "countries": data
+  };
 
-// // Create a map object
-// var myMap = L.map("map", {
-//   center: [0, -0],
-//   zoom: 1.25
-// });
+  // Create the map object with options
+  var map = L.map("map", {
+    center: [40.73, -74.0059],
+    zoom: 12,
+    layers: [lightmap, data]
+  });
+  // Create a layer control, pass in the baseMaps and overlayMaps. Add the layer control to the map
+  L.control.layers(baseMaps, overlayMaps, {
+    collapsed: false
+  }).addTo(map);
 
-// L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-//   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-//   tileSize: 512,
-//   maxZoom: 18,
-//   zoomOffset: -1,
-//   id: "mapbox/streets-v11",
-//   accessToken: API_KEY
-// }).addTo(myMap);
+  // Initialize an array to hold  markers
+  var mapMarkers = [];
 
-// var darkmap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-//   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-//   maxZoom: 18,
-//   id: 'mapbox/light-v10',
-//   tileSize: 512,
-//   zoomOffset: -1,
-//   accessToken: API_KEY
-//   }).addTo(myMap);
+  // Loop through the stations array
+  
+  data.forEach(function(row){
+    
+    var country={
+    location: [row.latitude, row.longitude],
+    name: [row.countryname],
+    gdp: [row.gdppercapita]
+    }
+    mapMarkers.push(country)
+  })
+console.log(mapMarkers)
+ // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
+// for (var i = 0; i < mapMarkers.length; i++) {
+//   var country = mapMarkers[i];
+//   L.marker(city.location)
+//     .bindPopup("<h1>" + country.countryname + "</h1> <hr> <h3>Population " + country.gdp + "</h3>")
+//     .addTo(myMap);
 
-
-// //Read in Results JSON
-// d3.json("happyMapTestJSON.json").then (results =>{
-//     var lat = Object.values(results.latitude);
-//     var long = Object.values(results.longitude);
-//     var countryname = Object.values(results.countryName);
-//     var happyIndex = Object.values(results.happinessRating);
-//     console.log(lat,long,countryname,happyIndex);
-
-
-//     // Loop through the Results Object and create one marker for each country
-//       Object.entries(results).forEach(([key, value]) => {
-
-//       var lat = results.latitude[1];
-//       var long = results.longitude[1];
-//       var country = results.countryName[1]
-//       var rating = results.happinessRating[1]
-//       console.log(lat, long, country,rating);
-
-//       L.circle(lat, long, {
-//         fillOpacity: 0.90,
-//         color: '#a2edff',
-//         fillColor: 'rgb(178,67,182)',
-//         radius: 500000
-//       }).bindPopup("<h2>" + country + "</h2> <hr> <h3>Happiness Index: " + rating + "</h3>").addTo(myMap);
-//           });
+// }
+}
 
 
 

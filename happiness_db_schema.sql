@@ -7,7 +7,8 @@ DROP TABLE IF EXISTS HealthCare;
 DROP TABLE IF EXISTS WorkHours;
 DROP TABLE IF EXISTS Coordinates;
 DROP TABLE IF EXISTS CountryReference;
-DROP TABLE IF EXISTS userData; 
+DROP TABLE IF EXISTS userData;
+DROP TABLE IF EXISTS userresults; 
 
 
 CREATE TABLE CountryReference (
@@ -109,4 +110,13 @@ CREATE Table userdata(
 	lifeChoices VARCHAR, 
 	generosity VARCHAR, 
 	govTrust VARCHAR
+)
+
+CREATE TABLE userresults(
+	inresultsid SERIAL PRIMARY KEY,
+	exuserId INTEGER, 
+	excountryid INTEGER, 
+	score INTEGER,
+	FOREIGN KEY (exuserId) REFERENCES userdata(id),
+	FOREIGN KEY (excountryId) REFERENCES CountryReference(InCountryId)
 )

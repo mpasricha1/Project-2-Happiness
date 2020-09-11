@@ -3,34 +3,76 @@
 	<div class = "container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="jumbotron" id="jumbo"> 
-					<h1>Happiness</h1>
-					<p class="lead">Which country would you be happiest living in? We have crafted a survey that will help determine if where you are living is currently the best place for you to live. </p><hr>
-					<p class="lead">Click here to take your happiness survey</p>
-					<a class="btn- btn-primary btn-lg" href="{{ url_for('survey') }}" role="button">Take the Survey</a>
-				</div>
+				<br>
+				<h2 style="color:black;">Overview</h2><hr>
+				<p>This product was inspired from the World Happiness Report (WHR) published on March 20, 2020. This report is published annually by the United Nations Sustainable Development Solutions Network. Using the Gallop World Poll, individuals around the world are surveyed on 6 Key variables: GDP per capita, social support, healthy life expectancy, freedom, generosity, and absence of corruption. The scores are based on individuals’ own assessments of their lives using the Cantril Ladder (scale from 0-10), where the top represents the best possible and the bottom the worst possible life for themselves.</p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3 style="color:black;">Factors</h3><hr>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h5>GDP</h5>
+				<p>The value of all the goods and services a country produces on a yearly basis. This number is calculated by a national government statistical agency.</p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12">
+			<h5>Social Support</h5>
+			<p><i>"If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?"</i></p>	
+			</div>				
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Freedom to make life choices</h5>
+				<p>Derived from the survey results of the Gallup World Poll Data.</p>
+			</div>				
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+			<h5>Healthy Life Expectancy</h5>
+			<p>The estimate for the healthy life expectancy represents the average number of “healthy” years a child at birth is estimated to live. It’s calculated by the WHO based on over 100 different health factors.</p>
+		</div>				
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+			<h5>Generosity</h5>
+			<p><i>“Have you donated money to a charity in the past month?”</i></p>
+		</div>				
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+			<h5>Perception of Corruption</h5>
+			<p><i>“Is corruption widespread throughout the government or not?”</i></p>
+		</div>	
+		</div>	
+		<div class="row">
+			<div class="col-md-12">
+			<h3 style="color:black;">Analysis</h3><hr>	
+		</div>
+	
+	</div>
+		<br>
 		<div class="row"> 
-			<div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="happinessfactor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Happiness Factor
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">GDP</a>
-                  <a class="dropdown-item" href="#">Generosity</a>
-                  <a class="dropdown-item" href="#">Health Life Expectancy</a>
-                </div>
-              </div>
-                <select id="happinessfactor1">
-                    <option value="GDP">GDP</option>
-                    <option value="Generosity">Generosity</option>
-                    <option value="Health Life Expectancy">Health Life Expectancy</option>
-                    <option value="Perception of Corruption">Perception of Corruption</option>
-                    <option value="Social Support">Social Support</option>
-                  </select>
-           	</div>
-        </div>
+			<div class="col-md-12">
+				<div class="btn-group">
+	                <button type="button" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="happinessfactor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                  Happiness Factor
+	                </button>
+	                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="factorlist">
+	                	<a class="dropdown-item" href="#">GDP</a>
+	                	<a class="dropdown-item" href="#">Generosity</a>
+	                	<a class="dropdown-item" href="#">Health Life Expectancy</a>
+	                	<a class="dropdown-item" href="#">Social Support</a>
+	                	<a class="dropdown-item" href="#">Freedom Life</a>
+	                	<a class="dropdown-item" href="#">Perception of Corruption</a>
+	                </div>
+	           	</div>
+	        </div>
+       	</div>
         <div class="row">
         	<div class="col-md-12">
 				<div id="plot"></div>
@@ -41,6 +83,22 @@
 				<div id="line"></div>
 			</div>
 		</div>
+		<div class = "container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<br>
+					<h2>Our Approach</h2><hr>
+					<p>Using the WHR as our baseline for happiness, we supplemented the 6 criteria, seeking additional preferences the user may want to consider when determining their optimal living locale. Using the various resources listed below, 6 additional happiness factors are to be evaluated: Fitness, Alcohol Consumption, Universal Healthcare, Sports, Legalization of Marijuana, and Weekly Hours Worked. The user will complete a survey asking pertaining to the aforementioned criteria. Using an algorithm, we intend to calculate and determine which country meets their criteria and provide a visualization back to the user showing them where they would be the happiest living.</p>
+				</div>
+			</div>
+	<br>
+		<div class="jumbotron" id="jumbo"> 
+					<h1>Where will you be happiest living?</h1>
+					<p class="lead">We have crafted a survey that will help determine if where you are living is currently the best place for you to live. </p><hr>
+					<p class="lead">Click here to take your happiness survey</p>
+					<a class="btn- btn-primary btn-lg" href="{{ url_for('survey') }}" role="button">Take the Survey</a>
+				</div>
+			</div>
 	</div>
 <script type="text/javascript" src="static/js/graphs.js"></script>
 {% endblock %}

@@ -1,3 +1,4 @@
+
 $(function() {
     date = 2020
     $.ajax({
@@ -7,7 +8,9 @@ $(function() {
         data: JSON.stringify(date),
         contentType:"application/json",
         success: function(data){
-            getScatterData(data);
+            dropdownMenu = "GDP"
+            getScatterData(data, dropdownMenu);
+
         }
     });
 });
@@ -22,30 +25,13 @@ $(function() {
         }
     });
 });
-//function is called when a drop down is selected
-// function factor_drop(){
-//     var dropdownMenu=d3.
+function getScatterData(data, dropdownMenu){
 
+  $('#factorlist a').on('click', function(){
+    var dropdownMenu = $(this).text();
+    getScatterData(data,dropdownMenu)
 
-// $("#happinessfactor").change(function() {
-//     date=2020
-//     $.ajax({
-//         type: 'POST',
-//         url: '/scatterdata',
-//         datatype: 'json',
-//         data: JSON.stringify(date),
-//         contentType:"application/json",
-//         success: function(data){
-//             getScatterData(data);
-//             console.log(data)
-//         }
-//     });
-// });
-// d3.selectAll("#happinessfactor").on("change",getScatterData)
-function getScatterData(data){
-    console.log(data)
-    var dropdownMenu=d3.select("#happinessfactor").property("value")
- //   console.log(dropdownMenu)
+});
  var column_number=0
  var x_axis_title=""
     if (dropdownMenu=="GDP"){
@@ -60,7 +46,10 @@ function getScatterData(data){
         column_number= 5
         x_axis_title="Health Life Expectancy"
     }
-
+    if (dropdownMenu=="Freedom Life"){
+        column_number= 6
+        x_axis_title="Freedom Life"
+    }
     if (dropdownMenu=="Generosity"){
         column_number= 7
         x_axis_title="Generosity"
@@ -79,16 +68,16 @@ function getScatterData(data){
         return row[column_number]
 
     });
+    console.log(x_axis)
 //rating
     y_axis=data.map(function(row){
         return row[2]
     });
-
+    console.log(y_axis)
     var region=data.map(function(row){
         return row[1]
     });
 
-// console.log(data.length)
     var trace1 = {
         x: x_axis,
         y: y_axis,
@@ -106,13 +95,14 @@ function getScatterData(data){
                 {target: 'Latin America and Caribbean', value: {marker: {color: 'rgb(243,99,177'}}},
                 {target: 'North America', value: {marker: {color: 'rgb(255,218,193'}}},
                 {target: 'Middle East and North Africa', value: {marker: {color: 'rgb(178,67,182)'}}},
-                {target: 'Eastern Asia', value: {marker: {color: 'rgb(253,191,59'}}},
+                {target: 'East Asia', value: {marker: {color: 'rgb(253,191,59'}}},
                 {target: 'Southeast Asia', value: {marker: {color: 'rgb(159,228,129'}}},
                 {target: 'Australia and New Zealand', value: {marker: {color: 'rgb(250,175,165'}}},
                 {target: 'Commonwealth of Independent States', value: {marker: {color: 'rgb(220,149,221'}}},
-                {target: 'Sub-Saharan Africa', value: {marker: {color: 'rgb(247,245,112'}}}
-      
-                
+                {target: 'Sub-Saharan Africa', value: {marker: {color: 'rgb(247,245,112'}}},
+                {target: 'South Pacific', value: {marker: {color: 'rgb(38,163,199'}}}
+
+    
             ]
           }]
       };
@@ -159,7 +149,6 @@ function getlineData(data){
         return row[0]
     });
 
-// console.log(data.length)
     var trace1 = {
         x: [2016,2017,2018,2019,2020],
         y: [5.38,5.354,5.375,5.407,5.473],
@@ -194,15 +183,3 @@ function getlineData(data){
     
     
 }
-
-// MG.data_graphic({
-//     title: "Happiness over the years",
-//     data: data,
-//    // markers: [{'year': 2019, 'label': 'Test'}],
-//     width: 400,
-//     height: 250,
-//     target: "#metrics-graphics",
-//     x_accessor: data[1],
-//     y_accessor: data[2]
-//   });
-
