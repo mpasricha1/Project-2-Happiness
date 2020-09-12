@@ -1,6 +1,6 @@
 
 $(function() {
-    date = 2020
+   var date = 2020
     $.ajax({
         type: 'POST',
         url: '/scatterdata',

@@ -1,35 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
-
-  <div class="row"> 
-    <div class="col-md-12">
-      <div id="map"></div>
+  <div class="container-fluid">
+    <br>
+    <hr>
+    <div class="row"> 
+      <div class="col-md-12">
+        <h2 id="country"></h2>
+      </div>
     </div>
-  </div>
-  <div id="chart"></div>
-  <div class="row"> 
-  	<div class="col-md-12"> 
-  		<table class="table table-striped"> 
-  			<thead>
-  				<tr> 
-  					<th class="table-head">Country</th>
-  					<th class="table-head">GDP</th>
-  					<th class="table-head">Generosity</th>
-  					<th class="table-head">Health Grade</th>
-  					<th class="table-head">Life Choices</th>
-  					<th class="table-head">Social</th>
-  					<th class="table-head">Life Expectency</th>
-  					<th class="table-head">Corruption</th>
-  					<th class="table-head">Beer</th>
-  					<th class="table-head">Wine</th>
-  					<th class="table-head">Spirits</th>
-  					<th class="table-head">Marijuana Med</th>
-  					<th class="table-head">Marijuana Rec</th>
-  					<th class="table-head">Sports</th>
-  					<th class="table-head">Work Hours</th>
-  				</tr>
-  			</thead>
-  			<tbody id="tablebody"></tbody>
-  		</table>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Below you can see a break down of the values that were used to calculate your top 5 ideal countries</p>
+      </div>
+    </div>
+    <div class="row"> 
+    	<div class="col-md-12"> 
+    		<table class="table table-striped"> 
+    			<thead>
+    				<tr> 
+    					<th class="table-head">Country</th>
+    					<th class="table-head">GDP</th>
+    					<th class="table-head">Generosity</th>
+    					<th class="table-head">Health Grade</th>
+    					<th class="table-head">Life Choices</th>
+    					<th class="table-head">Social</th>
+    					<th class="table-head">Life Expectancy</th>
+    					<th class="table-head">Corruption</th>
+    					<th class="table-head">Beer</th>
+    					<th class="table-head">Wine</th>
+    					<th class="table-head">Spirits</th>
+    					<th class="table-head">Marijuana Med</th>
+    					<th class="table-head">Marijuana Rec</th>
+    					<th class="table-head">Sports</th>
+    					<th class="table-head">Work Hours</th>
+    				</tr>
+    			</thead>
+    			<tbody id="tablebody"></tbody>
+    		</table>
+      </div>
+    </div>
+</div>
 <script type="text/javascript" src="static/js/happylogic.js"></script>
 {% endblock %}

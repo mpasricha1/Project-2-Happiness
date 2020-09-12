@@ -1,3 +1,4 @@
+//loading data
 $(function() {
   $.ajax({
     type: "GET",
@@ -5,44 +6,39 @@ $(function() {
     success: function(data){
       var newData =  parseTableData(data)
       generateTable(newData)
-      createMap(data)
+      placeHeader(data)
+      // createMap(data)
     }
   });
 });
-
+//creating a map 
 function createMap(data) {
   console.log(data)
   // Create the tile layer that will be the background of our map
-  var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-    maxZoom: 18,
-    id: "light-v10",
-    accessToken: "pk.eyJ1IjoibWZtNTEwNSIsImEiOiJja2VhaXlsY20wMTB0MnFvYnBlYnBxb28wIn0.URAgQMLtdtlVGg4APwqb0w"
-  });
-  // Create a baseMaps object to hold the lightmap layer
-  var baseMaps = {
-  "Light Map": lightmap
-  };
-  // Create an overlayMaps object to hold the map layer
-  var overlayMaps = {
-    "countries": data
-  };
-
-  // Create the map object with options
   var map = L.map("map", {
     center: [40.73, -74.0059],
-    zoom: 12,
-    layers: [lightmap, data]
+    zoom: 2,
+    // layers: [lightmap, data]
   });
-  // Create a layer control, pass in the baseMaps and overlayMaps. Add the layer control to the map
-  L.control.layers(baseMaps, overlayMaps, {
-    collapsed: false
+
+//world map
+  var lightmap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    tileSize: 512,
+    maxZoom: 18,
+    zoomOffset: -1,
+    id: "mapbox/streets-v11",
+    accessToken: "pk.eyJ1IjoibWZtNTEwNSIsImEiOiJja2VhaXlsY20wMTB0MnFvYnBlYnBxb28wIn0.URAgQMLtdtlVGg4APwqb0w"
   }).addTo(map);
+
+  var baseMaps = {
+  light: lightmap
+}
 
   // Initialize an array to hold  markers
   var mapMarkers = [];
 
-  // Loop through the stations array
+  // Loop through 
   
   data.forEach(function(row){
     
@@ -51,20 +47,18 @@ function createMap(data) {
     name: [row.countryname],
     gdp: [row.gdppercapita]
     }
-    mapMarkers.push(country)
-  })
+    // mapMarkers.push(country)
+//// Loop through the results array and create one marker for each city object
+  L.marker(country.location)
+    .bindPopup("<h1>" + country.name + "</h1> <hr> <h3>GDP " + country.gdp + "</h3>")
+    .addTo(map);
+});
+    
 console.log(mapMarkers)
- // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
-// for (var i = 0; i < mapMarkers.length; i++) {
-//   var country = mapMarkers[i];
-//   L.marker(city.location)
-//     .bindPopup("<h1>" + country.countryname + "</h1> <hr> <h3>Population " + country.gdp + "</h3>")
-//     .addTo(myMap);
+
 
 // }
 }
-
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -85,6 +79,7 @@ function generateTable(data){
 function parseTableData(data){ 
   var returnList = []
     data.forEach(function(row){
+      console.log(row.marymed)
       var country = {
         "country": row.country, 
         "gdp": row.gdp, 
@@ -105,4 +100,10 @@ function parseTableData(data){
       returnList.push(country)
     }); 
   return returnList
+}
+  
+function placeHeader(data){
+  var countryName = data[0].country
+  $("#country").text(`Your Ideal Country is ${countryName}`)
+
 }

@@ -7,6 +7,7 @@ from collections import Counter
 
 app = Flask(__name__) 
 
+# Set up database reflect all tables
 engine = create_engine(f"postgresql+psycopg2://postgres:postgres@localhost/happiness_db")
 Base = automap_base()
 Base.prepare(engine,reflect=True)
@@ -27,6 +28,8 @@ UserResults = Base.classes.userresults
 def index():
 	return render_template('index.html')
 
+#This route supplies data for the line chart
+#Post request will filter by year
 @app.route("/linedata", methods=["GET","POST"]) 
 def linedata(): 
 	session = Session(engine)
@@ -44,6 +47,8 @@ def linedata():
 	session.close()
 	return jsonify(data)
 
+#This route supplies data for the scatter chart 
+#Post request will filter for year 
 @app.route("/scatterdata", methods=["GET","POST"])
 def scatterdata():
 	session = Session(engine)
@@ -64,6 +69,8 @@ def scatterdata():
 	session.close()
 	return jsonify(data)
 
+#This route takes in all the data from the form 
+#Post rquest gets the data and inputs it into the database
 @app.route("/survey", methods=["GET", "POST"])
 def survey():
 	if request.method == "POST":
@@ -74,6 +81,7 @@ def survey():
 			lName = "" 
 			lName = request.form.get("lastname")
 			zipcode = request.form.get("zipcode")
+			email = ""
 			email = request.form.get("email")
 			gender = request.form.get("gender")
 			age = request.form.get("age")
@@ -153,9 +161,6 @@ def survey():
 			elif request.form.get("govnot") != None:
 				govTrust  = "Not Very Impactful"
 
-
-
-
 			newUserData = UserData(firstname=fName,lastname=lName,zipcode=zipcode, email=email, gender=gender,age=age,
 								   income=income, favregion=region,favsport=sport,favalcohol=alcohol,fitness=fit, 
 								   marijuanamedical=maryMed, marijuanarec=maryRec, unihealthcare=healthcare, hoursworked=hoursworked, 
@@ -167,18 +172,22 @@ def survey():
 		return redirect("summary")
 	return render_template("survey.html")
 
+#This is the main algorithm route it runs a few database calls along with several function calls
 @app.route("/calculatescore") 
 def calculatescore():
 	session = Session(engine)
 
+	#Set up countryDict with all the country names
 	countryDict = {}
 	countries = session.query(CountryReference.countryname).all()
 	for row in countries: 
 		countryDict.update({row[0]:0})
 
+	#Pulls the user data 
 	userData = session.query(UserData).\
 					order_by(UserData.id.desc()).first()
 
+	#Run data through algorithm
 	countryDict = calculateAlcoholScore(userData, countryDict)
 	countryDict = calculateFitnessScore(userData, countryDict)
 	countryDict = calculateMaryMedScore(userData, countryDict)
@@ -195,7 +204,8 @@ def calculatescore():
 	k = Counter(countryDict)
 	topFive = k.most_common(5)
 
-
+	#saves the top 5 countries into the userresults table 
+	#pulls the country id from the country table 
 	for row in topFive: 
 		excountryid = session.query(CountryReference.incountryid).\
 							filter(CountryReference.countryname == row[0]).first()
@@ -203,6 +213,7 @@ def calculatescore():
 		session.add(newResultData)
 		session.commit()
 
+	#Pulls the data that will displayed on the summary page 
 	returnList = []
 	count = 1
 	for row in topFive: 
@@ -210,7 +221,7 @@ def calculatescore():
 		points = row[1]
 		sel = [CountryReference.countryname,Coordinates.latitude, Coordinates.longitude, Happiness.gdppercapita, Happiness.socialsupport,
 				Happiness.healthylifeexpectancy, Happiness.freedomlifechoice, Happiness.generosity, Happiness.perceptionofcorruption,
-				 Alcohol.beer, Alcohol.wine, Alcohol.spirits, Fitness.healthgrade, Marijuana.recreational, Marijuana.medical,
+				 Alcohol.beer, Alcohol.wine, Alcohol.spirits, Fitness.healthgrade,Marijuana.medical, Marijuana.recreational,
 				 Sports.sport, Workhours.avghours]
 
 		data = session.query(*sel).\
@@ -254,6 +265,8 @@ def calculatescore():
 def summary():
 	return render_template("summary.html")
 
+#These are the functions for the algorithm each one accepts the data and the countryDict 
+#The countryDict is returned with the values populated
 def calculateAlcoholScore(userData, countryDict):
 	session = Session(engine)
 
@@ -335,7 +348,7 @@ def calculateFitnessScore(userData, countryDict):
 	elif userData.fitness == "Somewhat Important": 
 		countries = session.query(CountryReference.countryname, Fitness.healthgrade).\
 						   filter(CountryReference.incountryid == Fitness.excountryid).\
-						   filter(and_(Fitness.healthgrade > 70)).all()
+						   filter(Fitness.healthgrade > 70).all()
 		for row in countries: 
 			score = countryDict[row[0]] 
 			score += 5
